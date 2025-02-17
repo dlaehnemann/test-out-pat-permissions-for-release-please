@@ -2,13 +2,6 @@
 
 This repository is only meant for testing out the required minimal permissions to get GitHub Actions CI workflows to run on release-please pull requests.
 
-## Steps to get `release-please` to successfully open a pull request
+Am documenting the results in a gist:
+https://gist.github.com/dlaehnemann/44e1528491463511fbc7262291725063
 
-1. Allow GitHub Actions to open and approve pull requests via `Settings -> Actions -> General -> Workflow permissions -> [] Allow GitHub Actions to create and approve pull requests`:
-   https://github.com/googleapis/release-please-action?tab=readme-ov-file#workflow-permissions
-2. Specifically give the release-please Action permission to read and write `contents:` and `pull-requests:`:
-   ```
-   permissions:
-     contents: write
-     pull-requests: write
-   ```
