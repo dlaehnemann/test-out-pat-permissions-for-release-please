@@ -5,11 +5,6 @@ on:
 
 name: release-please
 
-permissions:
-  actions: write
-  contents: write
-  pull-requests: write
-
 jobs:
   release-please:
     runs-on: ubuntu-latest
@@ -17,5 +12,5 @@ jobs:
       - uses: googleapis/release-please-action@v4
         id: release
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.TEST_CONTENTS_PULL_REQUEST_WRITE_TOKEN }}
           release-type: simple
