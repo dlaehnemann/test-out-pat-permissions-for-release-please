@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/dlaehnemann/test-out-pat-permissions-for-release-please/compare/v1.0.0...v1.0.1) (2025-02-24)
+
+
+### Bug Fixes
+
+* remove workflow catalog yaml ([2484d69](https://github.com/dlaehnemann/test-out-pat-permissions-for-release-please/commit/2484d695436cfbb72bc69ab0d175ee2434774b18))
+
 ## 1.0.0 (2025-02-24)
 
 
