@@ -4,4 +4,3 @@ This repository is only meant for testing out the required minimal permissions t
 
 Am documenting the results in a gist:
 https://gist.github.com/dlaehnemann/44e1528491463511fbc7262291725063
-
